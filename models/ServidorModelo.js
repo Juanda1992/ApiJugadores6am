@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 
 //IMPORTAR LA FUNCION PARA CONECTARME CON LA BD
 const { conectarBD } = require('../database/conexion.js')
